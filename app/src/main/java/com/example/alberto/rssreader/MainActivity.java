@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
     RSSObject rssObject;
 
     //RSS link
-    private final String RSS_link = "http://rss.nytimes.com/services/xml/rss/nyt/Technology.xml";
+    private final String RSS_link = "http://www.ansa.it/sito/ansait_rss.xml";
     private final String RSS_to_Json_API = "https://api.rss2json.com/v1/api.json?rss_url=";
 
     @Override

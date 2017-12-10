@@ -10,7 +10,6 @@ import android.webkit.WebViewClient;
 /**
  * Created by Alberto on 10/12/2017.
  */
-
 public class ArticleWebPage extends AppCompatActivity {
 
     Toolbar toolbar;

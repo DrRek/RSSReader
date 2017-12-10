@@ -50,7 +50,6 @@ class FeedViewHolder extends RecyclerView.ViewHolder implements View.OnClickList
         return true;
     }
 }
-
 public class FeedAdapter extends RecyclerView.Adapter<FeedViewHolder>{
     private RSSObject rssObject;
     private Context mContext;
