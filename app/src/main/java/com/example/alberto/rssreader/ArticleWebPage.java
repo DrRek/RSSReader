@@ -1,5 +1,6 @@
 package com.example.alberto.rssreader;
 
+import android.graphics.Color;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
@@ -21,7 +22,9 @@ public class ArticleWebPage extends AppCompatActivity {
         setContentView(R.layout.webview);
 
         toolbar = (Toolbar) findViewById(R.id.toolbar);
-        toolbar.setTitle("News");
+        toolbar.setTitle("Senior RSS");
+        toolbar.setTitleTextColor(Color.WHITE);
+        toolbar.setTitleMarginStart(72);
         setSupportActionBar(toolbar);
 
         webView = (WebView)findViewById(R.id.webview);

@@ -1,6 +1,7 @@
 package com.example.alberto.rssreader;
 
 import android.app.ProgressDialog;
+import android.graphics.Color;
 import android.os.AsyncTask;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -31,7 +32,9 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         toolbar = (Toolbar) findViewById(R.id.toolbar);
-        toolbar.setTitle("News");
+        toolbar.setTitle("Senior RSS");
+        toolbar.setTitleTextColor(Color.WHITE);
+        toolbar.setTitleMarginStart(72);
         setSupportActionBar(toolbar);
 
         recyclerView = (RecyclerView) findViewById(R.id.recyclerView);
