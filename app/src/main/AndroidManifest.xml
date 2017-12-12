@@ -11,7 +11,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".SitePage">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -21,10 +21,10 @@
         <activity
             android:name="com.example.alberto.rssreader.ArticleWebPage"
             android:label="Article Page"
-            android:parentActivityName="com.example.alberto.rssreader.MainActivity">
+            android:parentActivityName="com.example.alberto.rssreader.SitePage">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.alberto.rssreader.MainActivity" />
+                android:value="com.example.alberto.rssreader.SitePage" />
 
         </activity>
     </application>

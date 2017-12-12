@@ -19,7 +19,7 @@ public class ArticleWebPage extends AppCompatActivity {
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.webview);
+        setContentView(R.layout.article_web_page);
 
         toolbar = (Toolbar) findViewById(R.id.toolbar);
         toolbar.setTitle("Senior RSS");
